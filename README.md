@@ -1,19 +1,65 @@
 # onlineShopping
-Create an online shopping web app
+    Basically the idea is to build an amazon like website which works in mobile and desktop
 
-Features
-    - Admin
-        - add items
-        - remove items
-        - update items
+#### Functionalities
+    - Register user through authentication
+    - Implement all item view strore
+    - Implement Search functionaity for items
+    - Build item view section
+    - Implemet write/remove/save review functionality
+    - Implement add to cart functionality
+    - Implement checkout
+    - Payment
 
-    - User
-        - View items
-        - Add items to cart
-        - Place order
-        - Pay 
+#### Pages
+  ##### User
+    - Login/Signup
+      - GoogleAuth
+    - Home
+      * Items
+      * Search
+      * Add to cart on hover
+      * View reviews/ rating
+    - Item Page
+      * show item
+      * Add to cart/ Buy Now
+      * Add/ Del/ Modify Reviews or ratings
+      * Show all views
+        - elements
+            - image
+            - name
+            - description
+            - price
+            - review text
+            - rating stars
+    - Cart
+      - Show all added items
+      - Add more/ remove
+      - Proceed
+    - Checkout
+      - Address
+      - Cancel order
+    - Payment
+      - Through Phonepe QR code
+  
+  ##### Vendor
+    - Login/Signup
+      - GoogleAuth
+    - Home
+      * Items
+      * Search
+      * Del/ Modify item on hover
+    - Item
+      * Add/ Del/ Modify Reviews or ratings
+      * Show/ Del views
+    - Add Item Page
+      * add an item
+      * add diferent pics
+      * edit/ del/ modify item
+    - Orders Page
+    - Deliveries Page
 
-User stories:
+### User stories
     - go to website? mobile/desktop user's choice
     - if user wants to see all the items? they can scroll and see
     - if user wants to check the price? price will be available at the bottom
@@ -22,17 +68,3 @@ User stories:
     - if user want to remove an item? go to cart and click on remove icon at top right corner
     - if user want to place an order? go to cart and proceed to pay then pay through Payment Gateway
     - if user want's to write a review? click on item, that takes user to item page
-
-Admin:
-    - go to website? open the url from mobile or computer
-    - require authentication
-    - how admin can add item? click on add icon available in the defaut dashboard page
-    - how admin can remove the item? go to items view page and can perform Update/Remove operation on hovering
-
-Item:
-    image
-    name
-    description
-    price
-    review
-    rating
