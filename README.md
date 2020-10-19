@@ -12,28 +12,29 @@ Basically the idea is to build an amazon like website which works in mobile and 
 - Payment
 
 #### Pages
+
   ##### User
-  - Login/Signup
-    - GoogleAuth
-  - Home
-    * Items
-    * Search
-    * Add to cart on hover
-    * View reviews/ rating
-  - Item Page
-    * show item
-    * Add to cart/ Buy Now
-    * Add/ Del/ Modify Reviews or ratings
-    * Show all views
-  - Cart
-    - Show all added items
-    - Add more/ remove
-    - Proceed
-  - Checkout
-    - Address
-    - Cancel order
-  - Payment
-    - Through Phonepe QR code
+    - Login/Signup
+      - GoogleAuth
+    - Home
+      * Items
+      * Search
+      * Add to cart on hover
+      * View reviews/ rating
+    - Item Page
+      * show item
+      * Add to cart/ Buy Now
+      * Add/ Del/ Modify Reviews or ratings
+      * Show all views
+    - Cart
+      - Show all added items
+      - Add more/ remove
+      - Proceed
+    - Checkout
+      - Address
+      - Cancel order
+    - Payment
+      - Through Phonepe QR code
   
   ##### Vendor
     - Login/Signup
